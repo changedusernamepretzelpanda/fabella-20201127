@@ -32,6 +32,9 @@ public class problemA {
 		
 		String input3 ="\"dog\", \"dog\", \"dog\", \"cat\", \"dog\", \"emma fabella\", \"emma fabella\"";
 		System.out.println(wordWithNoPair(input3));
+		
+		String input4 ="\"dog\", \"panda dog\", \"panda dog\", \"cat\", \"dog\", \"emma fabella\", \"emma fabella\"";
+		System.out.println(wordWithNoPair(input4));
 
 		
 	}

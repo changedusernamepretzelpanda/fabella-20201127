@@ -1,5 +1,7 @@
 package com.mrm.org.problemSet;
 
+import java.util.List;
+
 /*
  * Input = 1, 1, 2, 3
  * Output = 1, 3
@@ -17,5 +19,21 @@ package com.mrm.org.problemSet;
 public class problemC {
 	
 	
+	@SuppressWarnings("unused")
+	public static String uptrendMinMax(String input) {
+		String[] parseString = UtilityClass.parseString(input);
+		int[] arrayAddelemtoInt = UtilityClass.toArrayInteger(parseString);
+		//return UtilityClass.returnRefactoredList(toArrayList).trim();
+		//System.out.println(parseString[0]+parseString[1]+parseString[2]+parseString[3]);
+		//UtilityClass.longest(arrayAddelemtoInt);
+		List<Integer> longest=UtilityClass.longest(arrayAddelemtoInt);
+		return longest.get(0)+","+longest.get(longest.size()-1);
+	}
+	
+	
+	public static void main(String args[]) {
+		String input1 = "5, 4, 3, 2, 1, 2";
+		System.out.println(uptrendMinMax(input1));
+	}
 
 }

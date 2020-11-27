@@ -78,4 +78,36 @@ public class UtilityClass {
 	  } 
 	    return ""; 
 	} 
+	
+	@SuppressWarnings("null")
+	public String getLongestSeries(int[] input) {
+		for(int a=0;a<input.length;a++){
+			
+		}
+		
+		return "";
+	}
+	
+	
+	static List<Integer> longest(int[] input) {
+	    int maxc = 0;
+	    int consec = 1;
+	    int prev = 0;
+	    List<Integer> list = new ArrayList<>(); 
+	    for (int i : input) {
+	        if (maxc < consec) {
+	            maxc = consec;
+	        }
+	        if (i >= prev) {
+	            prev = i;
+	            consec++;
+	            list.add(input[prev]);
+	        }
+	        else {
+	            consec = 1;
+	            prev = 0;
+	        }
+	    }
+	    return list;
+	}
 }

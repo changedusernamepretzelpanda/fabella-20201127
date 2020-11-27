@@ -29,7 +29,7 @@ public class problemB {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String input = "[3, 2, 4, 6, 8, 10], 18";
+		String input = "[0, 2, 3, 6], 9";
 		System.out.println(UtilityClass.parseStringB(input)[0]);
 		System.out.println(UtilityClass.parseStringB(input)[1]);
 		System.out.println(getAdditionSentence(input));
