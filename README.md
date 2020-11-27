@@ -6,7 +6,8 @@ This is the answer to problem a,b and c
 
 The main parts of the template are:
 
-* com.mrm.org.problemSet : contains utility class and solution for 3 problems
+* com.mrm.org.problemSet(src\main\java) : contains utility class and solution for 3 problems
+* com.mrm.org.problemSet(src\test\java) : contains jUnitTest cases for problem a, b, and c
 
 ## How to build
 
@@ -16,7 +17,7 @@ To build all the modules run in the project root directory the following command
 
 ## How to Test
 
-To build all the modules run in the project root directory the following command with Maven 3:
+To execute unit test run in the project root directory the following command with Maven 3:
 
     mvn clean test
 
