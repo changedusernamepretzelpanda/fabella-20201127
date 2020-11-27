@@ -29,5 +29,10 @@ To execute unit test run in the project root directory the following command wit
  
  https://github.com/pretzelpanda13/fabella-20201127/blob/main/MRM%20Java%20Take%20Home%20Exam.pdf
  
+ ## unit test is located here
+ 
+ https://github.com/pretzelpanda13/fabella-20201127/blob/main/Dokumento%201%20(2).pdf
+ 
+ 
 
 
