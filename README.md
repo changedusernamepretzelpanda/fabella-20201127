@@ -21,5 +21,10 @@ There are three levels of testing contained in the project:
 * To test, execute:
 
     mvn clean test
+    
+ ## Orignal PDF Problem (can be found here) - although some have revisions
+ 
+ https://github.com/pretzelpanda13/fabella-20201127/blob/main/MRM%20Java%20Take%20Home%20Exam.pdf
+ 
 
 
