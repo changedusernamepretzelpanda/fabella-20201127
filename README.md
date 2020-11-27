@@ -1,6 +1,8 @@
 # Entrance test
 
-This is the answer to problem a,b and c
+This is the answer to problem a,b and c.
+
+Problem c solution to follow this afternoon
 
 ## Modules
 
