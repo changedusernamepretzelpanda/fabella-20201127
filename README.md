@@ -23,6 +23,9 @@ To execute unit test run in the project root directory the following command wit
 
     
  ## Orignal PDF Problem (can be found here) - although some have revisions
+ Problem b - test case 1 has more than 1 answer
+ Problem a - Characted needs to be escaped
+ Problem c - for clarification
  
  https://github.com/pretzelpanda13/fabella-20201127/blob/main/MRM%20Java%20Take%20Home%20Exam.pdf
  
