@@ -14,13 +14,12 @@ To build all the modules run in the project root directory the following command
 
     mvn clean install
 
-## Testing
+## How to Test
 
-There are three levels of testing contained in the project:
-
-* To test, execute:
+To build all the modules run in the project root directory the following command with Maven 3:
 
     mvn clean test
+
     
  ## Orignal PDF Problem (can be found here) - although some have revisions
  
