@@ -63,7 +63,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.mrm.org.problemSet.problemATest" name="testWordWithNoPairFirst" time="0"/>
-  <testcase classname="com.mrm.org.problemSet.problemATest" name="testWordWithNoPairSecond" time="0"/>
   <testcase classname="com.mrm.org.problemSet.problemATest" name="testWordWithNoPairtH" time="0"/>
+  <testcase classname="com.mrm.org.problemSet.problemATest" name="testWordWithNoPairSecond" time="0"/>
+  <testcase classname="com.mrm.org.problemSet.problemATest" name="testWordWithNoPairFirst" time="0"/>
 </testsuite>
